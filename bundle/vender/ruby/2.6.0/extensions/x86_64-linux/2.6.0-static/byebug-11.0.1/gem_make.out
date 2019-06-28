@@ -1,0 +1,19 @@
+current directory: /var/www/app/bundle/vender/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+/home/admin/.rbenv/versions/2.6.2/bin/ruby -I /home/admin/.rbenv/versions/2.6.2/lib/ruby/2.6.0 -r ./siteconf20190628-22353-p2pprr.rb extconf.rb
+creating Makefile
+
+current directory: /var/www/app/bundle/vender/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /var/www/app/bundle/vender/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /var/www/app/bundle/vender/ruby/2.6.0/gems/byebug-11.0.1/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20190628-22353-10l0xn8/byebug
