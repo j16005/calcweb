@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First:</strong>
+  <%= @add.first %>
+</p>
+
+<p>
+  <strong>Second:</strong>
+  <%= @add.second %>
+</p>
+
+<p>
+  <strong>Result:</strong>
+  <%= @add.result %>
+</p>
+
+<p>
+  <strong>Operator:</strong>
+  <%= @add.operator %>
+</p>
+
+<%= link_to 'Edit', edit_add_path(@add) %> |
+<%= link_to 'Back', adds_path %>
